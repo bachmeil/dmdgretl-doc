@@ -1,0 +1,2 @@
+#! /bin/bash
+chmod a+x alldoc editdoc newdoc only viewdoc

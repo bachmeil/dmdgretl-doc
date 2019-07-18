@@ -144,11 +144,19 @@
         <div>
           
 	  <main id="main">
-	    <h1 id="documentation-index">Documentation Index</h1>
-<ol type="1">
-<li><a href="intro.html">Introduction</a></li>
-<li><a href="test1.html">Getting Started</a></li>
-</ol>
+	    <h1 id="introduction">Introduction</h1>
+<p><a href="http://gretl.sourceforge.net/">Gretl</a> provides a library of functions for econometric analysis written in C. This package provides an interface to the Gretl library for D programs. It was designed concurrently with the embedr package so that R functions written in D could access all the functionality of the Gretl library.</p>
+<p>I believe D is an excellent choice for numerical programming. While this package is still a work in progress (notably when it comes to time series analysis) it already provides a considerable foundation to build on. Among other things, it provides:</p>
+<ul>
+<li>Linear algebra</li>
+<li>Random number generation and distributions</li>
+<li>Descriptive statistics</li>
+<li>Linear regression</li>
+<li>A variety of alternative estimation methods (logit, probit, etc.)</li>
+<li>ARMA and unit root tests</li>
+</ul>
+<p>An advantage of calling into Gretl, beyond the fact that I don’t need to spend thousands of hours writing all that code, is that the library has been used heavily for many years, and is therefore well tested.</p>
+<p>While providing comprehensive, high quality documentation is not possible for someone with my time budget, this site attempts to provide you with enough examples and discussion that you can get going. The underlying source code is intentionally simple, so modifying the libraries for your own use should not be difficult.</p>
 	  </main>
 
           <footer role="contentinfo">
